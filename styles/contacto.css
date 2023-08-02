@@ -1,0 +1,14 @@
+img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+div{
+    margin: 1.5em;
+}
+
+textarea{ 
+    width: 50vw;
+    height: 10vh;
+}

@@ -1,0 +1,85 @@
+body{
+    background: linear-gradient(to right,rgb(147, 118, 224), rgb(232, 147, 207));
+    margin: 0;
+    padding: 0;
+
+}
+
+body:not(h1, h2, h3){
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Indie Flower', cursive;
+}
+
+h1{
+    text-align: center;
+    background-color:rgb(232, 147, 207);
+    color: rgb(109, 81, 185);
+    padding: 0.5em;
+    margin: 1px;
+}
+
+header{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+header ul{    
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin: 1px;
+    padding-left: 1em;
+    overflow: hidden;
+    background-color: rgb(246, 255, 166);
+
+}
+
+
+header ul a{  
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+}
+
+header ul a li{
+
+    padding: 0.5em;
+    border: 1px solid rgb(240, 253, 119);
+
+    
+}
+
+.active{
+    color: rgb(240, 253, 119);
+
+    background-color: rgb(109, 81, 185);
+;
+}
+header ul a:hover:not(.active){
+    color: rgb(109, 81, 185);
+    background-color: rgb(243, 188, 200);
+    font-style: italic;
+        font-weight: 900;
+
+}
+
+.titulosec{
+    text-align: center;
+    background-color: rgb(243, 188, 200);
+    color: rgb(109, 81, 185);
+    padding: 0.2em;
+    margin: 1px;
+
+}
+
+footer{
+    background-color: darkviolet;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}

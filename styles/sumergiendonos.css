@@ -1,0 +1,54 @@
+article{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+.quote{
+    font-size: 1.5em;
+    text-align: right;
+    font-style: italic;
+}
+
+article p:not(.quote){
+    text-align: justify;
+}
+
+@media (min-width:800px) {
+    div img{
+    float: left;
+    padding-right: 1.5em;
+    width: 30vw;
+}
+}
+
+@media (max-width:800px) {
+    .contenedorimg{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.contenedortabla{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid darkviolet;
+}
+
+.columnas{
+    width: 45%;
+}
+td{
+    border: 1px solid darkviolet;
+    padding: 0 0.5em;  
+      
+}
+
+
+
+

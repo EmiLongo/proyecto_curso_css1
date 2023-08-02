@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="/styles/contacto.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <title>El Principito y el Zorro</title>
+</head>
+
+
+<body>
+    <H1>El Principito y el Zorro, el valor de la amistad.</H1>
+
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="sumergiendonos.html">
+                    <li>Sumergiéndonos</li>
+                </a>
+                <a href="audiovisuales.html">
+                    <li>Audiovisuales</li>
+                </a>
+                <a class="active" href="contacto.html">
+                    <li>Contacto</li>
+                </a>
+            </ul>
+        </nav>
+        <h2 class="titulosec">Envía tus comentarios</h2>
+    </header>
+
+    <div class="contenedor-formulario">
+
+        <form>
+            <label for="Nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required="">
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="Escribe tu e-mail" required="">
+            <br>
+            <label for="encuentro">¿Còmo nos encontraste?:</label>
+            <input type="radio" name="encuentro" id="encuentro"><i>Buscando en la Web</i>
+            <input type="radio" name="encuentro" id="encuentro"><i>Instagram</i>
+            <input type="radio" name="encuentro" id="encuentro"><i>Facebook</i>
+            <input type="radio" name="encuentro" id="encuentro"><i>Me contò un amigo</i>
+            <input type="radio" name="encuentro" id="encuentro"><i>Otros</i><br><br>
+            <label for="comentario">¿Qué es el Amor para ti?:</label>
+            <textarea name="comentario" id="comentario" required="">Para mí el Amor es...</textarea>
+            <br><br>
+            <input type="submit" value="Enviar">
+
+        </form>
+
+
+    </div>
+
+    <br>
+    <hr>
+    <img src="/assets/img/principito_y_rosa.jpg" alt="">
+
+
+    <footer class="footer">
+        <p>Derechos reservados © 2023. Emiliano Longo.</p>
+    </footer>
+</body>
+
+</html>
